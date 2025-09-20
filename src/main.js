@@ -69,7 +69,7 @@ let slideUp = document.querySelectorAll(".slide-up");
 let flipOver = document.querySelectorAll(".flip-over");
 let fadeIn = document.querySelectorAll(".fade-in");
 let trigger = document.querySelectorAll(".wave");
-let line=document.querySelectorAll(".line")
+let line = document.querySelectorAll(".line")
 
 
 
@@ -111,13 +111,13 @@ details.forEach(e => {
             const text = summary.textContent.toLowerCase();
             let armImg = document.querySelector(".arm")
             if (text.includes("regular cleaning")) {
-                
+
                 armImg.style.backgroundImage = "url('./src/images/arm.webp')";
             } else if (text.includes("deep cleaning")) {
-               
+
                 armImg.style.backgroundImage = "url('./src/images/red-instrument2.webp')";
             } else if (text.includes("move in-out cleaning")) {
-                
+
                 armImg.style.backgroundImage = "url('./src/images/purple-arm.webp')";
             }
         }
